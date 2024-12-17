@@ -1,7 +1,8 @@
-# BreezeEnhanced
+# Breeze10-6
 
 ## Overview
 
+Breeze10-6 is a fork of BreezeEnhanced for KDE 6 and QT6, which is a re-implementation of the Breeze10 theme for KDE 5 and QT5.
 BreezeEnhanced is a fork of KDE Breeze decoration with the following changes:
 
  * The optional title-bar gradient is smooth and has a configurable intensity.
@@ -34,30 +35,3 @@ make
 sudo make install
 ```
 After the intallation, restart KWin by logging out and in. Then, BreezeEnhanced will appear in *System Settings &rarr; Application Style &rarr; Window Decorations*.
-
-### Installation with package manager
-
-Users of Arch and its derivatives can install breeze-enhanced-git from AUR.
-
-Users of OpenSUSE Tumbleweed can do (thanks to trmdi at GitHub):
-```sh
-sudo zypper ar obs://home:trmdi trmdi
-sudo zypper in -r trmdi BreezeEnhanced
-```
-
-Users of Ubuntu can do (thanks to krisives at GitHub):
-```sh
-sudo add-apt-repository ppa:krisives/breezeenhanced
-sudo apt-get update
-sudo apt install breezeenhanced
-```
-
-## Screenshots:
-
-![Settings](screenshots/Settings.png?raw=true "Settings")
-
-![Exception](screenshots/Exception.png?raw=true "Exception")
-
-![Buttons](screenshots/Buttons.png?raw=true "Buttons")
-
-![Animation](screenshots/Animation.gif?raw=true "Animation")
